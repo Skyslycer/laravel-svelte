@@ -4,9 +4,14 @@ An example repository for using Laravel with the latest version of Svelte.
 It uses the beta version of Inertia 2 to allow for the latest Svelte version (5).
 
 ## Installation
-You can either clone this repository and build from there, or create your own following this guide:
+You can either clone this repository and build from there. When doing that, make sure you
+create a new `.env` (copy the example) file and run `php artisan key:generate` to generate a new key.
+You will also need to create a new database (just an empty file `database.sqlite` in the `database` folder) 
+and then run `php artisan migrate` to create the database tables.
 
-`Coming soon!`
+**Or you can create your own following this guide:**
+
+[https://blog.double-d.software/using-laravel-with-svelte/](https://blog.double-d.software/using-laravel-with-svelte/)
 
 ## Libraries used
 - Laravel 11 (https://laravel.com/docs/11.x/installation#creating-an-application)
